@@ -9,12 +9,8 @@
   "sources": [
     {
       "dir": "src"
-    },
-    {
-      "dir": "__tests__",
-      "type": "dev"
     }
   ],
-  "bs-dependencies": ["rescript-json-schema"],
+  "bs-dependencies": ["sury"],
   "bs-dev-dependencies": ["@dzakh/rescript-ava"]
 }

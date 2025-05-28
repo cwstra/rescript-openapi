@@ -32,20 +32,16 @@
     "res": "rescript -w",
     "test": "ava"
   },
-  "ava": {
-    "files": [
-      "__tests__/**/*_test.res.js"
-    ]
-  },
   "dependencies": {
-    "rescript-json-schema": "6.x || 7.x"
+    "sury": "10.x"
   },
   "devDependencies": {
     "@dzakh/rescript-ava": "3.0.0",
     "ava": "5.2.0",
     "c8": "8.0.1",
     "rescript": "11.1.4",
-    "rescript-json-schema": "7.0.0"
+    "rescript-json-schema": "7.0.0",
+    "sury": "10.0.1"
   },
   "peerDependencies": {
     "rescript": "11.x"
